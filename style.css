@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,100;1,200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Poppins, 'sans-serif';
+    text-align: center;
+    color: rgba(0, 0, 0, 0.81);
+    overflow-x: hidden;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-menu ul, li{
+    padding: 5px 13px;
+    /* border: solid #000 2px; */
+    font-weight: 600;
+}
+.logo-menu ul, li:hover{
+    border-bottom: solid #000 5px;
+    color: #000;
+    cursor: pointer;    
+}
+ .search:hover{
+    border-bottom: none;
+}
+.logo:hover{
+    border-bottom: none;   
+}
+
+hr{
+    margin-bottom: 3px;
+}
+
+/* red header */
+.red-header{
+    background-color: rgb(198, 25, 25);
+    }
+.red-header h1{
+    font-size: 5rem;
+   
+}
+.red-header, h1 {
+    color: white;
+    text-transform: uppercase;  
+}
+.red-header #primary-nav a{
+    color: white;
+}
+#find-local{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+i{
+    margin-left: 5px;
+    color: #fff;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+/* main */
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 80px;
+}
+
+h2{
+    font-size: 3rem;
+    border: solid #000 5px;
+    /* background-color: #000; */
+    /* color: #fff; */
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 25px;
+}
+p{
+    letter-spacing: 1px;
+}
+.main-content{
+    margin-left: 50px;
+}
+.sidebar{
+    margin-right: 20px;
+    border-right: solid #000 4px;
+    
+}
+.article-image{
+    display: grid;
+    float: right;
+    margin-left: 50px;
+}
+.post-data, .country{
+    color: rgb(198, 25, 25);
+}
+.related-links, .post-data{
+    margin-top: 20px;
+}
+
+.post-data1{
+    margin-bottom: 20px;
+}
